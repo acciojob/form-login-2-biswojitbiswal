@@ -6,5 +6,5 @@ document.getElementById("my-form").onsubmit = function(e){
     const phone = document.getElementById("phone").value;
     const email = document.getElementById("email").value;
     console.log(firstName);
-    alert(`First Name:${firstName} Last Name:${lastName} Phone Number:${phone} Email ID:${email}`);
+    alert(`First Name: ${firstName} Last Name: ${lastName} Phone Number: ${phone} Email ID: ${email}`);
 }
